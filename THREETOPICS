@@ -1,0 +1,24 @@
+package epam.PracticeOfApiTesting;
+
+import java.util.Scanner;
+
+public class CodeChefQn {
+	
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		int no=s.nextInt();
+			if(no==2) {
+				System.out.println("YES");
+			}else if(no==3) {
+				System.out.println("YES");
+			}else if(no==7) {
+				System.out.println("YES");
+			}else {
+				System.out.println("NO");
+			}
+		}
+		
+		
+		
+	}
+	
