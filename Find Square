@@ -1,0 +1,18 @@
+package epam.PracticeOfApiTesting;
+
+import java.util.Scanner;
+
+public class CheckSquare {
+	
+	public static void main(String[]args) {
+		Scanner s=new Scanner(System.in);
+		int length=s.nextInt();
+		int breath=s.nextInt();
+		if(length==breath) {
+			System.out.println("square");
+		}else {
+			System.out.println("rectangle");
+		}
+	}
+
+}
