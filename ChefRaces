@@ -1,0 +1,27 @@
+package epam.PracticeOfApiTesting;
+
+import java.util.Scanner;
+
+public class Races {
+	public static void main(String[] args) {
+		
+		Scanner s= new Scanner(System.in);
+		int x=s.nextInt();
+		int y=s.nextInt();
+		int a=s.nextInt();
+		int b=s.nextInt();
+		
+		if(x!=a && x!=b && y!=a && y!=b) {// 4 3 2 1
+			System.out.println("2");
+		}
+		else if((x==a || x==b) && (y==a || y==b) ) { // y==a(t) && y==b
+			System.out.println("0");
+		}
+		else {
+			System.out.println("1");
+		}
+		
+		
+	}
+
+}
